@@ -1,0 +1,298 @@
+section{
+    padding: 100px 0;
+    
+}
+body{
+     background: linear-gradient(to top right, #ffcccc 0%, #00ccff 100%);
+}
+.header{
+background: rgb(2,0,36);
+background: linear-gradient(22deg, rgba(2,0,36,1) 0%, rgba(242,196,48,0.8702074579831933) 35%, rgba(0,212,255,1) 100%);
+padding: 0;
+margin-bottom: 0;
+height: 200px;
+max-width:100%;
+
+}
+.header-li{
+    list-style-type: square;
+    color:#000;
+}
+section{
+    padding: 100px 0;
+    display: block;
+    margin-bottom: 10px;
+}
+div{
+    margin:0%;
+}
+h1{
+    text-transform: uppercase;
+    font-family: algerian;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+}
+.home{
+    background-image: url('./images/background.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    max-width: 100%;
+
+}
+.max-width{
+    color:#0b0803;
+    font-family: "Ubuntu", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0 100px;
+    max-width: 1000px;
+    width: 100%;
+    
+    
+}
+.home-content{
+    margin-top: 170px;
+    padding: 0%;
+    
+}
+.text-1{font-size: 45px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 150px;
+    margin-bottom: 10px;
+    padding: 0%;
+
+}.text-2{font-size: 35px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 0%;
+
+}
+.text-3{font-size: 30px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 10px;
+    padding: 0%;
+    
+
+}
+.hire{font-size: 25px;
+    font-weight: 300;
+    margin-top: 10px;
+    padding: 0%;
+    text-align: left;
+
+}
+@media(max-width: 1000px){
+.max-width {
+    max-width: 100%;
+    display:flex;
+    margin:0%;
+    padding:100px 0;
+    
+}
+
+} 
+#about{
+    text-align: center;
+    padding: 100px 0;
+   text-align: center;
+    margin: 0%;
+    margin-bottom: 50px;
+}
+h2{
+    font-family: Algerian;
+    font-size: 30px;
+     text-decoration: underline;
+     
+}
+.profile{
+    width:300px;
+    height:300px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+    align-content: center;
+}
+
+.about-content{
+    align-items:flex-start;
+    display:flex;
+    height:200px;
+    margin-right:0px;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.column{
+    display: block;
+    margin-right: 0%;
+    padding-right: 0%;
+    margin-left: 10px;
+}
+.right{
+    float:right;
+    margin-left: 200px;
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 70px;
+    
+  }
+  
+  .left{
+    float:left;
+    
+  }
+  
+  @media (max-width: 1000px) {
+  
+    .about-content{
+      width: 100%;
+      display: block;
+      margin-bottom: 30px;
+      text-align: justify;
+      align-content: center;
+      justify-content: center;
+    }
+    .profile{
+        width:250px;
+        height: 220px;
+
+  }
+ 
+.title{
+    font-size: 20px;
+    margin-right: 10px;
+    text-align: justify;
+    
+}
+.column{
+    margin-left: 0%;
+    
+  }
+.right{
+    float:right;
+    margin-left: 0px;
+    text-align: justify;
+    font-size: 20px;
+  }
+  .left{
+    float:left;
+    margin-left: 0%;
+    
+  }
+ 
+  
+
+}
+.skills .skills-content .contact .contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+.title{
+    text-align: center;
+    margin-bottom: 150px;
+    margin-left: 500px;
+    
+}
+.icons{
+    margin-left: 50px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+.contact-content{
+    display: flex;
+    flex-wrap: nowrap;
+}
+@media (max-width: 1000px){
+.skills .skills-content .column, .contact .contact-content .column {
+    width: 100%;
+    margin-bottom: 35px;
+}
+}
+.contact .contact-content .text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.row .info{
+    padding: 0%;
+    margin-bottom: 5px;
+    margin-left: 0%;
+}
+
+.head{
+    font-size: 20px;
+    text-decoration:underline;
+}
+@media(max-width:1000px){
+    .title{
+        margin-left: 5px;
+        margin-right: 50px;
+        text-align: left;
+        margin-bottom: 0px;
+    
+    }
+    .icons{
+        margin-right: 0%;
+        margin-left: 10px;
+    }
+    .contact-content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .home-content{
+      text-align: justify;
+      position: absolute;
+      bottom: 60px;
+      left:30%
+      
+    }
+    *{
+        font-size: 10px;
+    }
+    
+}
+.field{
+    border-radius: 20%;
+}
+.skills p{
+    font-size: 20px;
+}
+.contact{
+    background-image: url('https://klachicago.com/wp-content/uploads/2015/02/contact-page-background.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    max-width: 100%;
+}
+.skills{
+    margin-bottom: 100px;
+}
+.text5{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+*{
+    color:#000;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+.footertext{
+    font-size: 20px;
+    color:whitesmoke ;
+}
+*{
+    font-size: 20px;
+}
